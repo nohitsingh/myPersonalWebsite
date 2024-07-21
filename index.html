@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nohit Singh</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script
+      src="https://kit.fontawesome.com/fbcbd03c5a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <h1 id="logo">N<span>ohit.</span></h1>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Service</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+        <div class="header-text">
+          <p>MERN Developer</p>
+          <h1>Hi, I am <span>Nohit</span> <br />Singh</h1>
+        </div>
+      </div>
+    </div>
+
+    <!----------about-------------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/nohitSiteImage.jpeg" alt="About-img" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Hi there! 👋 I'm Nohit. I'm a MERN developer with knowledge of
+              MySQL, Express.JS, React.JS, Django, MongoBD, Node.js. I have interest in Web
+              Development, Open source contribution , Data Analytics
+              & data visualisation. My interests range from web development to
+              data analytics, and i'm always eager to explore new technological horizons.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+              <p class="tab-links" onclick="opentab('coding-profiles')">Certifications</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>REACT.JS</span><br />Building frontend</li>
+                <li><span>MongoDB</span><br />Managing Database</li>
+                <li><span>Node.js</span><br />building backend</li>
+                <li><span>Netlify</span><br />Hosting and Deployment</li>
+                
+                <li><span>PowerBI</span><br />data visualisation</li>
+               
+                <li><span>Java</span><br />development</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>May 2024 - Aug 2024</span><br />Business Analyst
+                  @IndianMesh Pvt. Ltd.
+                </li>
+                <p>
+                  <ul>
+                    <li>Utilized data analysis tools to extract, manipulate, and interpret data, driving informed decision-making processes.
+                    </li>
+                    <li>Conducted user acceptance testing (UAT) and coordinated with end-users to validate system functionality.
+                    </li>
+                    <li>Tech. used - Advance Excel, SQL, Python, Power BI
+                    </li>
+                  </ul>
+                </p>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2020 - 2024</span><br />B.Tech. (CSE) @ Chandigarh University, Mohali, Punjab.
+                </li>
+                <li>
+                  <span>2019 - 2020</span><br />Intermediate @ KCM Public High School
+                  Palwal, Haryana
+                </li>
+                <li>
+                  <span>2017 - 2018</span><br />Matriculation @ KCM Public
+                  School Palwal, Haryana
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="coding-profiles">
+              <ul>
+                <li>
+                  <span>Data Mining</span><br /><a style="color: white;" href="https://leetcode.com/niteshkoli/">Certificate Link</a>
+                </li>
+                <li>
+                  <span>Programming in Java</span><br /><a style="color: white;" href="https://auth.geeksforgeeks.org/user/niteshkoli">Certificate Link</a>
+                </li>
+                <li>
+                  <span>Data visualization With PowerBI</span><br /><a style="color: white;" href="https://www.hackerrank.com/profile/niteshkoli">Certificate Link</a>
+                </li>
+                <li>
+                  <span>Cloud Computing</span><br /><a style="color: white;" href="https://www.codingninjas.com/studio/profile/241dfb5e-bfdd-40b0-b3d1-ff1664d6ea72">Certificate Link</a>
+                </li>
+                <li>
+                  <span>Codechef</span><br /><a style="color: white;" href="https://www.codechef.com/users/niteshkoli015">Codechef profile link</a>
+                </li>
+                
+                
+
+
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -------------services------------- -->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Frontend Development</h2>
+            <p>
+              🚀 Elevate your online presence with cutting-edge web applications
+              that marry stunning design with seamless functionality. As a
+              dedicated frontend web app developer, I specialize in bringing
+              your digital vision to life, ensuring a user experience that
+              captivates and converts.
+            </p>
+            <a href="#">learn more</a>
+          </div>
+
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Backend Development</h2>
+            <p>
+              Harnessing the power of cutting-edge technologies, I specialize in
+              crafting the backbone of web applications. From server-side logic
+              to database management, I ensure your web app runs smoothly and
+              efficiently.
+            </p>
+            <a href="#">learn more</a>
+          </div>
+
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Data Analytics</h2>
+            <p>
+               Unlocking insights through data analytics is my specialty.
+               I offer personalized services to uncover patterns and trends from your data, empowering informed decisions. 
+               Whether optimizing strategies or predicting outcomes, 
+               I ensure you harness the full potential of your data for success.
+            </p>
+            <a href="#">learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- --------------portfolio------------ -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/weather.jpg" alt="work-1" />
+            <div class="layer">
+              <h3>React Weather application</h3>
+              <p>
+                The app that help you to know weather of any location in the
+                world.
+              </p>
+              <a href="https://weather-report-by-nitestark.netlify.app/"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/todo-list.jpg" alt="work-2" />
+            <div class="layer">
+              <h3>React todo List</h3>
+              <p>The app that helps you to write your tasks to do.</p>
+              <a href="https://todo-list-jsl5.onrender.com/"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png" alt="work-3" />
+            <div class="layer">
+              <h3>Number Game</h3>
+              <p>
+                A simple guessing Number game in which user guess a random
+                number chosen by computer.
+              </p>
+              <a href="https://niteshkoli.github.io/guess-my-number/"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/daily-journal.webp" alt="work-3" />
+            <div class="layer">
+              <h3>Daily Journal</h3>
+              <p>
+                A simple blog post web app where user can posts their daily journal blog.
+              </p>
+              <a href="https://blog-post-8glo.onrender.com/"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/tindog.jpg" alt="work-3" />
+            <div class="layer">
+              <h3>Tindog Website</h3>
+              <p>
+                A simple website to showcase web design skill.
+              </p>
+              <a href="https://nitesh-kohli.github.io/tindog-website/"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/currency-converter.webp" alt="work-3" />
+            <div class="layer">
+              <h3>Currency Converter</h3>
+              <p>
+                An awesome and easy to use currency converter.
+              </p>
+              <a href="https://currency-converter-ivory-nine.vercel.app/"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/keyboard-magic.jpg" alt="work-3" />
+            <div class="layer">
+              <h3>keyboard-magic(DESKTOP)</h3>
+              <p>
+                This is a simple project in which when user press any key it is shown on screen.
+              </p>
+              <a href="https://nitesh-kohli.github.io/keyboard-magic/"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/unlimited-colors.jpg" alt="work-3" />
+            <div class="layer">
+              <h3>unlimited-colors</h3>
+              <p>
+                This a unlimited-colors project in which there are unlimited colors changing and you can stop on one of them.
+              </p>
+              <a href="https://nitesh-kohli.github.io/unlimited-colors/"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/digital-clock.webp" alt="work-3" />
+            <div class="layer">
+              <h3>Digital-Clock</h3>
+              <p>
+                This is a digital clock project - a basic level project to learn JAVASCRIPT.
+              </p>
+              <a href="https://nitesh-kohli.github.io/Digital-Clock/"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/bmi-calculator.webp" alt="work-3" />
+            <div class="layer">
+              <h3>BMI-Calculator</h3>
+              <p>
+                This is a simple BMI Calculator Project - a basic level project to learn JAVASCRIPT.
+              </p>
+              <a href="https://nitesh-kohli.github.io/BMI-Calculator/"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/color-changer.webp" alt="work-3" />
+            <div class="layer">
+              <h3>color-changer</h3>
+              <p>
+                This is a color changer project - a basic level project to learn javascript.
+              </p>
+              <a href="https://nitesh-kohli.github.io/color-changer/"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/virtual-mouse.jpg" alt="work-3" />
+            <div class="layer">
+              <h3>virtual-mouse</h3>
+              <p>
+                this is a virtual mouse using python. Now you can cantrol your pc without even touching it.
+              </p>
+              <a href="https://www.youtube.com/watch?v=mocKBRWSckA&ab_channel=NiteshKoli"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/emoji-pedia.jpg" alt="work-3" />
+            <div class="layer">
+              <h3>emojipedia</h3>
+              <p>
+                This is a react app which help to know meaning of your favourite emojis you use while chatting.
+              </p>
+              <a href="https://emojipedia-xy2i.onrender.com/"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/drum-kit.jpg" alt="work-3" />
+            <div class="layer">
+              <h3>Drum kit simulation</h3>
+              <p>
+                this is simple simulation of drum kit.
+              </p>
+              <a href="https://nitesh-kohli.github.io/drum-kit/"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/red-dice.jpg.webp" alt="work-3" />
+            <div class="layer">
+              <h3>Dice Game</h3>
+              <p>
+                simple Dice game whenever you refresh random number generated.
+              </p>
+              <a href="https://nitesh-kohli.github.io/dice-game/"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/pokedex.jpg" alt="work-3" />
+            <div class="layer">
+              <h3>Pokedex</h3>
+              <p>
+                Pokedex fetching data from pokemon api
+              </p>
+              <a href="https://nitesh-kohli.github.io/Pokedex/"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/grocery-list.jpg" alt="work-3" />
+            <div class="layer">
+              <h3>Grocery List</h3>
+              <p>
+                A simple Grocery list app.
+              </p>
+              <a href="https://nitesh-kohli.github.io/grocery-list/"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <a href="#" class="btn">see More</a>
+      </div>
+    </div>
+
+    <!-- -----------contact--------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i>singhnohit5@gmail.com
+            </p>
+            <p><i class="fa-solid fa-square-phone"></i>+91-9817270847</p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/nohit-singh-1427a5230"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/nohitsingh"
+                ><i class="fa-brands fa-github"></i></i
+              ></a>
+            </div>
+            <a href="#" download class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2" onclick="sent()">
+                Submit
+              </button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright <i class="fa-solid fa-copyright"></i> Nohit Singh. Made
+          with <i class="fa-solid fa-heart"></i> by Nohit
+        </p>
+      </div>
+    </div>
+
+    <script>
+      var tabLinks = document.getElementsByClassName("tab-links");
+      var tabContents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tabLink of tabLinks) {
+          tabLink.classList.remove("active-link");
+        }
+
+        for (tabContent of tabContents) {
+          tabContent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sideMenu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sideMenu.style.right = "0";
+      }
+      function closemenu() {
+        sideMenu.style.right = "-200px";
+      }
+    </script>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbwcE7A25xBh-5bmLR_qj8oyqJRj9jl0TFN4FFKxqI6hMIk3U2jsY3DTIZA9FR8rzf4fSA/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, {method: "POST", body: new FormData(form)})
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+
+    <script>
+      function sent() {
+        document.getElementById("msg").innerHTML = "Message sent successfully";
+      }
+
+      // const element = document.getElementsByName("submit-to-google-sheet");
+      // element.reset();
+    </script>
+  </body>
+</html>
